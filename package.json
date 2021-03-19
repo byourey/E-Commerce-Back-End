@@ -19,6 +19,7 @@
   "homepage": "https://github.com/byourey/E-Commerce-Back-End#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "mysql": "^2.18.1",
     "sequelize": "^6.5.1"
   }
 }
