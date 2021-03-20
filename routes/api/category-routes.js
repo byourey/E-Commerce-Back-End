@@ -18,8 +18,8 @@ router.get('/:id', (req, res) => {
     where: {
       id: req.params.id
     }
-  }).then((CategoryById) => {
-    res.json(CategoryById);
+  }).then((categoryById) => {
+    res.json(categoryById);
   }).catch((err) => res.json(err));
   
 });
