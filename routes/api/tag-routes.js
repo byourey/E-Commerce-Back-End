@@ -4,7 +4,7 @@ const { Tag, Product, ProductTag } = require('../../models');
 // The `/api/tags` endpoint
 
 router.get('/', (req, res) => {
-  Tag.findOne({
+  Tag.findAll({
     include: [{ model: Product, through: ProductTag }]
   }).then((allTags) => {
     res.json(allTags);
