@@ -1,7 +1,7 @@
 # E-Commerce-Back-End
 
 ## Description
-Using the starter code provided, build the back end for an e-commerce site by configuring a working Express.js API to use Sequelize to interact with a MySQL database. We are creating the models for Category, Product, ProductTag and Tag and then using the models in the api routes.
+With the code given to us, we are building the back end for an e-commerce site by using Express.js API and Sequelize.
 
 ## Install
 Clone repository.
